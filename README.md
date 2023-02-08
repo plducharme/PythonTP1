@@ -9,7 +9,7 @@ Travail Pratique 1 du cours de programmation orientée objet Hiver 2023
    2) Rechercher matplotlib (pas de 'h' à mat)
    ![matplotlib](./images/matplotlib.PNG)
    3) cliquer "install package"
-   ![install package](./images/matplotlib.PNG)
+   ![install package](./images/installpkg.PNG)
 
 
 ## Exercices
