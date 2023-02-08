@@ -26,6 +26,7 @@ La classe abstraite Polygone vous est fournie dans le fichier polygone.py
 2) Implémenter la méthode nb_cotes(self) de la classe Polygone
    1) la méthode doit retourner le nombre de côtés du polygone
 3) Implémenter la méthode longueur(self) de la classe Vecteur
+   1) Doit retourner la longueur du Vecteur
 4) Implémenter la classe Triangle dérivant de Polygone
    1) Cette classe doit implémenter la méthode abstraite de Polygone
 5) Implémenter la classe HexagoneRegulier dérivant de Polygone
@@ -56,11 +57,11 @@ Le fichier arbrebinaire.py contient les classes suivantes:
   - méthode load_data(filename): Permet de charger le data des équipes à partir d'un CSV
   - méthode moyenne_bas_haut(liste_equipes): à implémenter, voir ci-bas 
 
-1) Implémenter la méthode total_points(self)
+1) Implémenter la méthode total_points(self) dans la classe EquipeLNH
    + Une victoire donne 2 points
    + Une défaite en prolongation donne 1 point
    + Doit retourner le total de points
-2) Implémenter la méthode moyenne_but_par_match(self)
+2) Implémenter la méthode moyenne_but_par_match(self) dans la classe EquipeLNH
    + Doit retourner la moyenne de point par match
 3) Implémenter la méthode insertion(self, equipe) dans la classe Noeud
    1) Si le nombre de points est plus petit que le noeud courant, l'équipe doit être insérée dans l'enfant de gauche
