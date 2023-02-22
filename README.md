@@ -4,7 +4,9 @@ Travail Pratique 1 du cours de programmation orientée objet Hiver 2023
 ## Introduction
 
 ## Prérequis
-1) installer le package matplotlib
+1) cloner le dépôt
+2) installer lìnterpreter (venvironnement)
+3) installer le package matplotlib
    1) PyCharm: View -> Tool Windows -> Python Packages
    2) Rechercher matplotlib (pas de 'h' à mat)
    ![matplotlib](./images/matplotlib.PNG)
