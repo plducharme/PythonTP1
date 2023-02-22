@@ -5,7 +5,8 @@ from abc import ABC, abstractmethod
 
 class Polygone(ABC):
 
-    _liste_vecteurs = []
+    def __init__(self):
+        self._liste_vecteurs = []
 
     @property
     def liste_vecteurs(self):
