@@ -32,7 +32,7 @@ class Noeud:
     # Afficher l'arbre
     def afficher_arbre(self):
         if self._gauche:
-            self._gauche.afficher_arbre(self)
+            self._gauche.afficher_arbre()
         self._equipe.afficher(),
         if self._droite:
             self._droite.afficher_arbre()
