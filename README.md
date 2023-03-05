@@ -64,7 +64,7 @@ Le fichier arbrebinaire.py contient les classes suivantes:
    + Une défaite en prolongation donne 1 point
    + Doit retourner le total de points
 2) Implémenter la méthode moyenne_but_par_match(self) dans la classe EquipeLNH
-   + Doit retourner la moyenne de but par match
+   + Doit retourner la moyenne de buts par match
 3) Implémenter la méthode insertion(self, equipe) dans la classe Noeud
    1) Si le nombre de points est plus petit que le noeud courant, l'équipe doit être insérée dans l'enfant de gauche
    2) Sinon, il doit être inséré à droite
